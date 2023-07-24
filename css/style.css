@@ -85,10 +85,66 @@ h2 {
   font-size: 36px;
   color: #1f2937;
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .images-section-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 60px;
+}
+
+.images-section {
+  margin-bottom: 100px;
+}
+
+.image-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 150px;
+}
+
+.image-box img {
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.image-box p {
+  text-align: center;
+}
+
+.inspiring-quote-section {
+  background-color: #e5e7eb;
+  padding: 80px;
+  align-items: center;
+}
+
+.inspiring-quote-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.inspiring-quote-container h2 {
+  text-align: left;
+  font-weight: 400;
+  font-size: 36px;
+  font-style: italic;
+  margin: 0;
+  padding: 0;
+}
+
+.inspiring-quote-container p {
+  text-align: end;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+  font-size: 18px;
 }
