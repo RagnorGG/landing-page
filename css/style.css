@@ -119,6 +119,7 @@ h2 {
   background-color: #e5e7eb;
   padding: 80px;
   align-items: center;
+  margin-bottom: 80px;
 }
 
 .inspiring-quote-container {
@@ -139,6 +140,30 @@ h2 {
   text-align: end;
   font-weight: 600;
   font-size: 20px;
+}
+
+.call-to-action-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882f6;
+  color: #fff;
+  border-radius: 5px;
+  padding: 50px;
+  margin-bottom: 80px;
+}
+
+.call-to-action-container p {
+  color: #dddada;
+}
+
+.btn-white {
+  background-color: #3882f6;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 18px;
 }
 
 footer {
